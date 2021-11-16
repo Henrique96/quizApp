@@ -79,7 +79,7 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine); //clear counterLine
         startTimer(timeValue); //calling startTimer function
         startTimerLine(widthValue); //calling startTimerLine function
-        timeText.textContent = "Time Left"; //change the timeText to Time Left
+        timeText.textContent = "Tempo:"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
     }else{
         clearInterval(counter); //clear counter
@@ -183,7 +183,7 @@ function startTimer(time){
                 if(option_list.children[i].textContent == correcAns){ //if there is an option which is matched to an array answer
                     option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
                     option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
-                    console.log("Time Off: Auto selected correct answer.");
+                    console.log("Tempo acabou: Selecionado automaticamente resposta correta;");
                 }
             }
             for(i=0; i < allOptions; i++){
