@@ -177,6 +177,8 @@ body{
 }
 
 .assinatura {
+    padding: 4px;
+    margin: 4px;
     position: relative;
     right: 0px;
     color: black;

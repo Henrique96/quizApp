@@ -57,7 +57,7 @@ restart_quiz.onclick = ()=>{
     startTimer(timeValue); //calling startTimer function
     startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Tempo:"; //change the text of timeText to Time Left
-    next_btn.classList.remove("show"); //hide the next button
+    proximo_btn.classList.remove("show"); //hide the next button
 }
 
 // if quitQuiz button clicked
@@ -65,11 +65,11 @@ quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
 }
 
-const next_btn = document.querySelector("footer .next_btn");
+const proximo_btn = document.querySelector("footer .proximo_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
-next_btn.onclick = ()=>{
+proximo_btn.onclick = ()=>{
     if(que_count < perguntas.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value
         que_numb++; //increment the que_numb value
@@ -80,7 +80,7 @@ next_btn.onclick = ()=>{
         startTimer(timeValue); //calling startTimer function
         startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "Tempo:"; //change the timeText to Time Left
-        next_btn.classList.remove("show"); //hide the next button
+        proximo_btn.classList.remove("show"); //hide the next button
     }else{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -142,7 +142,7 @@ function optionSelected(answer){
     for(i=0; i < allOptions; i++){
         option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
     }
-    next_btn.classList.add("show"); //show the next button if user selected any option
+    proximo_btn.classList.add("show"); //show the next button if user selected any option
 }
 
 function showResult(){
@@ -189,7 +189,7 @@ function startTimer(time){
             for(i=0; i < allOptions; i++){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
-            next_btn.classList.add("show"); //show the next button if user selected any option
+            proximo_btn.classList.add("show"); //show the next button if user selected any option
         }
     }
 }

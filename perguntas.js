@@ -2,57 +2,57 @@
 let perguntas = [
     {
     numb: 1,
-    pergunta: "A Naiane faz aniversário que dia?",
-    answer: "3 de março",
+    pergunta: "Qual é o coletivo de cães??",
+    answer: "Matilha",
     options: [
-      "3 de março",
-      "13 de março",
-      "22 de março",
-      "28 de março"
+      "Matilha",
+      "Alcateia",
+      "Rebanho",
+      "Manada"
     ]
   },
     {
     numb: 2,
-    pergunta: "Qual pergunta funciona?",
-    answer: "Funciona",
+    pergunta: "Seguindo a sequência do baralho, qual carta vem depois do dez?",
+    answer: "Valete",
     options: [
-      "Funciona",
-      "Não Funciona",
-      "Não Funciona",
-      "Não Funciona"
+      "Rei",
+      "Valete",
+      "Ás",
+      "Nove"
     ]
   },
     {
     numb: 3,
-    pergunta: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    pergunta: "Que cor represanta a reciclagem do metal?",
+    answer: "Amarelo",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Amarelo",
+      "Vermelho",
+      "Verde",
+      "Azul"
     ]
   },
     {
     numb: 4,
-    pergunta: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    pergunta: "O que aconteceu no mundo entre os anos de 1939 e 1945?",
+    answer: "Segunda guerra mundial",
     options: [
-      "Stylish pergunta Language",
-      "Stylesheet Query Language",
-      "Statement pergunta Language",
-      "Structured Query Language"
+      "Primeira guerra mundial",
+      "Guerra do Golfo",
+      "Guerra Fria",
+      "Segunda guerra mundial"
     ]
   },
     {
     numb: 5,
-    pergunta: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    pergunta: "Qual jogador de basquete, um astro da NBA, é o protagonista do filme SPACEJAM: UM NOVO LEGADO??",
+    answer: "LEBRON JAMES",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "MICHAEL JORDAN",
+      "LEBRON JAMES",
+      "KOBE BRYANT",
+      "SHAQUILLE O'NEAL"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add pergunta
