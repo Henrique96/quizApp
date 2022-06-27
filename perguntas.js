@@ -46,13 +46,13 @@ let perguntas = [
   },
     {
     numb: 5,
-    pergunta: "Qual jogador de basquete, um astro da NBA, é o protagonista do filme SPACEJAM: UM NOVO LEGADO??",
-    answer: "LEBRON JAMES",
+    pergunta: "Qual jogador de basquete, um astro da NBA, é o protagonista do filme Spacejam: Um novo legado??",
+    answer: "Lebron James",
     options: [
-      "MICHAEL JORDAN",
-      "LEBRON JAMES",
-      "KOBE BRYANT",
-      "SHAQUILLE O'NEAL"
+      "Michael Jordan",
+      "Lebron James",
+      "Kobe Bryant",
+      "Shaquille O'neal"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add pergunta
